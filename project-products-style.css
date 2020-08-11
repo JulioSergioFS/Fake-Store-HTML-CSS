@@ -2,7 +2,7 @@ header {
 	background: #AAAAAA;	
 }
 
-img {
+.logo {
 	position: absolute;
 	width: 40%;
 	top: 60px;
@@ -32,4 +32,8 @@ nav a {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.product {
+	width: 200px;
 }
