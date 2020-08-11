@@ -8,6 +8,10 @@ header {
 	top: 60px;
 }
 
+.logo:hover {
+	width: 43%;
+}
+
 .box {
 	position: relative;
 	width: 1150px;
@@ -34,6 +38,10 @@ nav a {
 	text-transform: uppercase;
 }
 
+nav a:hover {
+	color: #0939ab;
+}
+
 .product-list {
 	padding: 40px 0;
 	width: 940px;
@@ -50,6 +58,18 @@ nav a {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+}
+
+.product-list li:hover {
+	border-color: #0939ab;
+}
+
+.product-list li:hover h2 {
+	font-size: 28px;
+}
+
+.product-list li:active {
+	border-color: red;
 }
 
 .product {
