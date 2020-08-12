@@ -23,7 +23,7 @@
 			</div>
 		</header>
 
-		<main>
+		<main class="mainform">
 			<form>
 				<label for="name">Full name: </label>
 				<input type="text" id="name">

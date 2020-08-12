@@ -98,3 +98,25 @@ footer {
 	padding-top: 30px;
 	font-size: 13px;
 }
+
+.mainform {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+form input {
+	display: block;
+	margin-bottom: 10px;
+	width: 50%;
+	padding: 12px 20px;
+}
