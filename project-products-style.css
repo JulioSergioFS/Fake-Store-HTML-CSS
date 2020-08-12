@@ -4,12 +4,12 @@ header {
 
 .logo {
 	position: absolute;
-	width: 40%;
+	width: 30%;
 	top: 60px;
 }
 
 .logo:hover {
-	width: 43%;
+	width: 35%;
 }
 
 .box {
