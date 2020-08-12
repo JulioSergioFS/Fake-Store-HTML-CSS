@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fake Products</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="box">
+				<h1><a href="project.html"><img src="logothatimadeblack.png" class="logo"></a></h1>
+
+				<nav>
+					<ul>
+						<li><a href="project.html">Fake Home</a></li>
+						<li><a href="project-products.html">Fake Products</a></li>
+						<li><a href="project-contact.hmtl">Fake contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<footer>
+			<img src="logothatimade.png">
+			<p class="copyright">&copy; Copyright Fake Store - 2020</p>
+		</footer>
+	</body>
+</html>
