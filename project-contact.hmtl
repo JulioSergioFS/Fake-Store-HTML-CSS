@@ -23,6 +23,21 @@
 			</div>
 		</header>
 
+		<main>
+			<form>
+				<label for="name">Full name: </label>
+				<input type="text" id="name">
+
+				<label for="email">Email: </label>
+				<input type="text" id="email">
+
+				<label for="phonenumber">Phone number: </label>
+				<input type="text" id="phonenumber">
+
+				<input type="submit" value="Send form">
+			</form>
+		</main>
+
 		<footer>
 			<img src="logothatimade.png">
 			<p class="copyright">&copy; Copyright Fake Store - 2020</p>
