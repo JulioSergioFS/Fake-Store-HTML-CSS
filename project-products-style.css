@@ -72,12 +72,6 @@ nav a:hover {
 	border-color: red;
 }
 
-.product {
-	width: 210px;
-	height: 190px;
-	padding: 35px 0;
-}
-
 .product-list h2{
 	font-size: 25px;
 	font-weight: bold;
