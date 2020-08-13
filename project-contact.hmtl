@@ -47,6 +47,15 @@
 					<label for="radio-facebook"><input type="radio" value="facebook" name="ways" id="radio-facebook">Facebook</label>
 				</div>
 
+				<div class="select">
+					<p>Which time do you want to be attended?</p>
+					<select>
+						<option>Morning</option>
+						<option>Afternoon</option>
+						<option>Night</option>
+					</select>
+				</div>
+
 				<label class="question">Would you like to receive our news at your email? <input type="checkbox"></label>
 
 				<input type="submit" value="Send form">
