@@ -59,6 +59,32 @@
 				<label class="question">Would you like to receive our news at your email? <input type="checkbox" checked></label>
 
 				<input type="submit" value="Send form" class="send">
+
+				<table>
+					<thead>
+						<tr>
+							<th>Day</th>
+							<th>Time</th>
+						</tr>					
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>Monday</td>
+							<td>8am to 5pm</td>
+						</tr>
+
+						<tr>
+							<td>Wednesday</td>
+							<td>8am to 5pm</td>
+						</tr>
+
+						<tr>
+							<td>Saturday</td>
+							<td>8am to 5pm</td>
+						</tr>
+					</tbody>
+				</table>
 			</form>
 		</main>
 
