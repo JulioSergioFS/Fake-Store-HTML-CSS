@@ -26,31 +26,28 @@
 		<main class="mainform">
 			<form>
 				<label for="name">Full name: </label>
-				<input type="text" id="name">
+				<input type="text" id="name" class="standard-input">
 
 				<label for="email">Email: </label>
-				<input type="text" id="email">
+				<input type="text" id="email" class="standard-input">
 
 				<label for="phonenumber">Phone number: </label>
-				<input type="text" id="phonenumber">
+				<input type="text" id="phonenumber" class="standard-input">
 
 				<label for="message">Message: </label>
 				<textarea cols="55" rows="7" id="message"></textarea>
 
 				<div>
-					<p>Which way do you want to contact us?</p>
+					<p class="question">Which way do you want to contact us?</p>
 
-					<label for="radio-email">Email</label>
-					<input type="radio" value="email" name="ways" id="radio-email">
+					<label for="radio-email"><input type="radio" value="email" name="ways" id="radio-email">Email</label>
+					
+					<label for="radio-phone"><input type="radio" value="phone" name="ways" id="radio-phone">Phone</label>
 
-					<label for="radio-phone">Phone</label>
-					<input type="radio" value="phone" name="ways" id="radio-phone">
-
-					<label for="radio-facebook">Facebook</label>
-					<input type="radio" value="facebook" name="ways" id="radio-facebook">
+					<label for="radio-facebook"><input type="radio" value="facebook" name="ways" id="radio-facebook">Facebook</label>
 				</div>
 
-				<label>Would you like to receive our news at your email? <input type="checkbox"></label>
+				<label class="question">Would you like to receive our news at your email? <input type="checkbox"></label>
 
 				<input type="submit" value="Send form">
 			</form>

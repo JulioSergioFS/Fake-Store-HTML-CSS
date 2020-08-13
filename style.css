@@ -108,13 +108,18 @@ form {
 	margin: 40px 0;
 }
 
-form label {
+form label, form p {
 	display: block;
 	margin-bottom: 10px;
 	width: 30%;
+	font-size: 20px;
 }
 
-form input {
+.question {
+	width: 100%;
+}
+
+.standard-input {
 	display: block;
 	margin-bottom: 10px;
 	width: 50%;
