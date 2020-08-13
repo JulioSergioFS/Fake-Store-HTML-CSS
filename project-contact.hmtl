@@ -35,7 +35,7 @@
 				<input type="tel" id="phonenumber" class="standard-input" required>
 
 				<label for="message">Message: </label>
-				<textarea cols="55" rows="7" id="message"></textarea>
+				<textarea cols="55" rows="7" id="message" style="width: 54%"></textarea>
 
 				<fieldset>
 					<legend class="question">Which way do you want to contact us?</legend>
@@ -58,7 +58,7 @@
 
 				<label class="question">Would you like to receive our news at your email? <input type="checkbox" checked></label>
 
-				<input type="submit" value="Send form">
+				<input type="submit" value="Send form" class="send">
 			</form>
 		</main>
 
