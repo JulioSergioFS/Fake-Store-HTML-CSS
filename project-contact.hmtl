@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<div class="box">
-				<h1><a href="project.html"><img src="logothatimadeblack.png" class="logo"></a></h1>
+				<h1><a href="project.html"><img src="logothatimadeblack.png" alt="Fake Store's logo" class="logo"></a></h1>
 
 				<nav>
 					<ul>
@@ -26,44 +26,44 @@
 		<main class="mainform">
 			<form>
 				<label for="name">Full name: </label>
-				<input type="text" id="name" class="standard-input">
+				<input type="text" id="name" class="standard-input" required>
 
 				<label for="email">Email: </label>
-				<input type="text" id="email" class="standard-input">
+				<input type="email" id="email" class="standard-input" required placeholder="youremail@domain.com">
 
 				<label for="phonenumber">Phone number: </label>
-				<input type="text" id="phonenumber" class="standard-input">
+				<input type="tel" id="phonenumber" class="standard-input" required>
 
 				<label for="message">Message: </label>
 				<textarea cols="55" rows="7" id="message"></textarea>
 
-				<div>
-					<p class="question">Which way do you want to contact us?</p>
+				<fieldset>
+					<legend class="question">Which way do you want to contact us?</legend>
 
-					<label for="radio-email"><input type="radio" value="email" name="ways" id="radio-email">Email</label>
+					<label for="radio-email"><input type="radio" value="email" name="ways" id="radio-email" checked>Email</label>
 					
 					<label for="radio-phone"><input type="radio" value="phone" name="ways" id="radio-phone">Phone</label>
 
 					<label for="radio-facebook"><input type="radio" value="facebook" name="ways" id="radio-facebook">Facebook</label>
-				</div>
+				</fieldset>
 
-				<div class="select">
-					<p>Which time do you want to be attended?</p>
+				<fieldset class="select">
+					<legend>Which time do you want to be attended?</legend>
 					<select>
 						<option>Morning</option>
 						<option>Afternoon</option>
 						<option>Night</option>
 					</select>
-				</div>
+				</fieldset>
 
-				<label class="question">Would you like to receive our news at your email? <input type="checkbox"></label>
+				<label class="question">Would you like to receive our news at your email? <input type="checkbox" checked></label>
 
 				<input type="submit" value="Send form">
 			</form>
 		</main>
 
 		<footer>
-			<img src="logothatimade.png">
+			<img src="logothatimade.png" alt="Fake Store's logo">
 			<p class="copyright">&copy; Copyright Fake Store - 2020</p>
 		</footer>
 	</body>
