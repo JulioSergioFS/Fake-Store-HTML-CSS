@@ -165,3 +165,49 @@ th, td {
 	padding: 10px 30px;
 	font-size: 18px;
 }
+
+
+/* Home Page CSS */
+ .banner {
+ 	width: 100%;
+ 	height: 550px;
+ }
+
+.mainhome {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.mainhome em {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.mainhome strong {
+	font-weight: bold;
+}
+
+ .title1 {
+ 	font-size: 2em;
+ 	margin: 0.5em 0 1em;
+ 	text-align: center;
+ }
+
+.disguise {
+	width: 150px;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.mainhome p {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.list .title1{
+	clear: left;
+}
+
+ .fakenews {
+ 	width: 60%;
+ }
