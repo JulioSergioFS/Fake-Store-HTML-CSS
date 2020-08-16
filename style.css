@@ -263,6 +263,10 @@ th, td {
 	font-weight: bold;
 }
 
+.item:before {
+	content: '🞼';
+}
+
  .fake-news {
  	width: 60%;
  }
