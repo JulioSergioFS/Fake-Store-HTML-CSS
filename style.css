@@ -286,3 +286,35 @@ th, td {
 	padding-bottom: 2em;
 
 }
+
+@media screen and (max-width: 480px) {
+	.box, .map-content, .video-content{
+		width: auto;
+	}
+
+	.box {
+		text-align: center;
+	}
+
+	.logo {
+		top: 100px;
+		left: 40px;
+		width: 80%;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	.list {
+		width: 100%;
+	}
+}
